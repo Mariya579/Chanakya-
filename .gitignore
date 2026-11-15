@@ -38,6 +38,9 @@ backend/storage/repair-dataset.jsonl
 !backend/storage/uploads/.gitkeep
 !backend/storage/lancedb/.gitkeep
 
+# ─── Large ML model weights (download separately, not in git) ──
+indictrans-service/models/
+
 # ─── Logs ───────────────────────────────────────────────────────
 *.log
 npm-debug.log*
