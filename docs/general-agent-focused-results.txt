@@ -1,0 +1,27 @@
+[OrchestratorPlanner] Dropping unknown step: shell.execute
+✔ Open VS Code and open D:\Projects\Test (11.4667ms)
+✔ Open VLC and play D:\Movies\test.mp4 (1.3209ms)
+✔ Play D:\Movies\test.mp4 using VLC (1.6915ms)
+✔ launch-only success cannot verify compound goal (0.9112ms)
+✔ invalid mandatory steps invalidate the whole plan (1.051ms)
+✔ forward dependency cannot dispatch (0.7245ms)
+✔ three-step orchestration executes in order and only finishes after goal verification (7.4785ms)
+✔ all tool steps succeeding cannot override failed original-goal verification (1.8425ms)
+✔ chat dependencies use owned outputs and cannot complete on just app launch (2.381ms)
+✔ replanning may reference successful resolver output; direct model paths are rejected (0.5616ms)
+✔ dynamic aliases, token matching, Unicode, and safe ambiguity (30.4676ms)
+✔ target boundary rejects unsafe paths, interpreters, arguments, source and missing files (3.7746ms)
+✔ cache persistence, coalesced refresh, separate user aliases and cache distrust (26.9034ms)
+✔ missing result rescans once and never launches or installs (6.3371ms)
+✔ new app becomes resolvable after a miss; ambiguity never launches (3.2953ms)
+✔ stale missing executable is invalidated and rescanned (3.9398ms)
+✔ partial discovery never asserts not installed (4.6766ms)
+✔ known blocked applications are not reported as missing (8.4816ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 321.7192

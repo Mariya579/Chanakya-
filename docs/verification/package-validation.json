@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "securityFiles": 93,
+    "sourceIntegrity": "passed",
+    "userStorage": "absent"
+  },
+  "repair": {
+    "capability": "windows.printSpooler.start.v1",
+    "sha256": "d53151853048490b2317dfcffd33fe502e514245ac4a6f8b9628fa8743307340",
+    "integrity": "passed",
+    "protectedInstall": "runtime ACL check required"
+  },
+  "packagedExe": "E:\\chatbot\\frontend\\release-desktop-20261008-final\\win-unpacked\\Chanakya AI.exe",
+  "sha256": "efe492382b9ffb57f18ebb5ebc52db10b1994674ac6efa2ae24dce0c42caf351",
+  "storageInsideResources": false
+}

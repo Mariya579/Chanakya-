@@ -1,0 +1,18 @@
+
+> chanakya-enterprise-ai-assistant@1.0.0 test:electron
+> node scripts/run-electron-tests.mjs
+
+
+PASS :: the tracked window's own webContents is recognized as trusted
+PASS :: a second, real but untracked window's webContents is not trusted
+PASS :: requireTrustedSender lets the real handler run for the trusted sender
+PASS :: requireTrustedSender refuses to run the handler for an untrusted sender
+PASS :: a destroyed tracked window is never treated as trusted
+
+5/5 passed
+
+PASS :: a clicked-link-style navigation to an external URL is prevented, not followed
+PASS :: window.open() to an external URL never creates a second privileged window
+PASS :: a non-http(s) scheme navigation is blocked and never forwarded to the system browser
+
+3/3 passed

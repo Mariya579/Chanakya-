@@ -1,0 +1,4 @@
+{"query":"Calculator","opened":true,"success":true,"controls":40}
+{"query":"VS Code","opened":true,"success":true,"controls":13}
+{"query":"VLC","opened":true,"success":false,"error":{"code":"AMBIGUOUS_WINDOW","message":"AMBIGUOUS_WINDOW"}}
+{"query":"Notepad","opened":true,"success":true,"controls":35}

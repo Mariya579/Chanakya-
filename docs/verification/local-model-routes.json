@@ -1,0 +1,38 @@
+{
+  "command": "node backend/scripts/model-route-smoke.mjs",
+  "execution": "Executed by the model-routing audit agent on 8 October 2026; raw observations recorded in this chat.",
+  "general": {
+    "model": "qwen:latest",
+    "passed": true,
+    "text": "LOCAL GENERAL OK",
+    "toolCalls": 0,
+    "executedTools": 0,
+    "elapsedMs": 9027,
+    "firstTokenMs": 8677,
+    "loadMs": 7671,
+    "promptEvaluationMs": 990,
+    "promptTokens": 24,
+    "generationMs": 353,
+    "generatedTokens": 4
+  },
+  "windows": {
+    "model": "qwen3.5:9b",
+    "passed": true,
+    "proposedTools": ["inventory_probe"],
+    "executedTools": 0,
+    "elapsedMs": 53710,
+    "loadMs": 19454,
+    "promptEvaluationMs": 28045,
+    "promptTokens": 298,
+    "generationMs": 6180,
+    "generatedTokens": 15
+  },
+  "residentModelsAfter": [],
+  "hardware": {
+    "totalRamGiB": 23.87,
+    "freeRamGiBAtAudit": 11.85,
+    "gpu": "Intel UHD Graphics 620",
+    "reportedWmiAdapterRamGiB": 1,
+    "dedicatedFreeVram": "unavailable; integrated adapter memory is not a dedicated VRAM budget"
+  }
+}

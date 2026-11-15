@@ -1,0 +1,24 @@
+{
+  "validatedAt": "2026-10-09T13:34:05.300Z",
+  "output": "E:\\chatbot\\frontend\\release-software-20261009-verified\\win-unpacked",
+  "sourceSnapshot": "E:\\chatbot\\.qa\\software-release-source-20261009",
+  "snapshotManifestSha256": "9a495e15e8c53b203c912f04410ffbf4393ad66de1832b441274e0765f1e2c32",
+  "unchangedSnapshotFiles": 366,
+  "securityFiles": 113,
+  "sourceIntegrity": "passed",
+  "userStorage": "absent",
+  "repair": {
+    "capability": "windows.printSpooler.start.v1",
+    "sha256": "d53151853048490b2317dfcffd33fe502e514245ac4a6f8b9628fa8743307340",
+    "integrity": "passed",
+    "protectedInstall": "runtime ACL check required"
+  },
+  "applicationPortability": "passed",
+  "discovery": "runtime",
+  "machineLocalData": "absent",
+  "checkedFiles": 17234,
+  "copiedFileCount": 17308,
+  "copiedTreeSha256": "c0c1fe2ec4624e9815189e6e4948b9d63ba56c3d62ce3435e0168169316b3357",
+  "exactCopy": true,
+  "executableSha256": "efe492382b9ffb57f18ebb5ebc52db10b1994674ac6efa2ae24dce0c42caf351"
+}

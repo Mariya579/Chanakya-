@@ -1,0 +1,31 @@
+{
+  "recordedAt": "2026-10-09T13:31:23.4858232Z",
+  "sourceSnapshot": "E:\\chatbot\\.qa\\software-release-source-20261009",
+  "buildWorkingDirectory": "E:\\chatbot\\.qa\\software-release-source-20261009\\frontend",
+  "buildCommand": "node scripts/build-release.cjs --output-dir=release-software-20261009",
+  "buildExitCode": 0,
+  "installerExactCopy": true,
+  "applicationExactCopy": true,
+  "applicationFileCount": 17308,
+  "packagedChecksPassed": 20,
+  "regressionTestsPassed": 432,
+  "releaseDirectory": "E:\\chatbot\\frontend\\release-software-20261009-verified",
+  "installerInstalled": false,
+  "cleanMachineTested": false,
+  "downloads": 0,
+  "installerExecutions": 0,
+  "files": [
+    {
+      "path": "E:\\chatbot\\frontend\\release-software-20261009-verified\\Chanakya AI Setup 1.0.0.exe",
+      "bytes": 296819948,
+      "sha256": "311917f448cca72ff5fc547facbed14d1be835b5705f4c4cc05923671c0ad8ee",
+      "signature": "NotSigned"
+    },
+    {
+      "path": "E:\\chatbot\\frontend\\release-software-20261009-verified\\win-unpacked\\Chanakya AI.exe",
+      "bytes": 204521984,
+      "sha256": "efe492382b9ffb57f18ebb5ebc52db10b1994674ac6efa2ae24dce0c42caf351",
+      "signature": "NotSigned"
+    }
+  ]
+}

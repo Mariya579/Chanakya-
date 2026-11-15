@@ -1,0 +1,160 @@
+{
+  "packaged": true,
+  "executablePath": "E:\\chatbot\\.qa\\software-release-source-20261009\\frontend\\release-software-20261009\\win-unpacked\\Chanakya AI.exe",
+  "results": [
+    {
+      "name": "Actual application exposes the narrow software IPC contract",
+      "pass": true
+    },
+    {
+      "name": "Actual signed Windows file metadata is read without executing it",
+      "pass": true,
+      "detail": {
+        "status": "Valid",
+        "name": "Node.js",
+        "version": "24.18.0",
+        "publisher": "OpenJS Foundation",
+        "architecture": "x64"
+      }
+    },
+    {
+      "name": "Generic software settings render in the actual app",
+      "pass": true
+    },
+    {
+      "name": "Actual provider discovery returns bounded interfaces and diagnostics",
+      "pass": true,
+      "detail": {
+        "providers": [
+          {
+            "id": "offline-cache",
+            "name": "Approved offline installers",
+            "kind": "offline-cache",
+            "capabilities": {
+              "offline": true,
+              "network": false
+            },
+            "origin": "native-selected installer cache",
+            "trust": "local-selection"
+          },
+          {
+            "id": "winget:winget",
+            "name": "Windows Package Manager: winget",
+            "kind": "package-manager",
+            "capabilities": {
+              "offline": false,
+              "network": true
+            },
+            "origin": "https://cdn.winget.microsoft.com/cache",
+            "trust": "official"
+          },
+          {
+            "id": "microsoft-store-handoff",
+            "name": "Microsoft Store official interface",
+            "kind": "official-page",
+            "capabilities": {
+              "offline": true,
+              "network": false
+            },
+            "origin": "https://apps.microsoft.com/",
+            "trust": "official"
+          }
+        ],
+        "diagnostics": [
+          {
+            "providerId": "winget:msstore",
+            "status": "SOURCE_APPROVAL_REQUIRED",
+            "message": "A configured repository was found, but its origin and publishers require explicit operator approval before automatic installation."
+          },
+          {
+            "providerId": "winget:winget-font",
+            "status": "SOURCE_APPROVAL_REQUIRED",
+            "message": "A configured repository was found, but its origin and publishers require explicit operator approval before automatic installation."
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unknown product discovery does not invent an installed product",
+      "pass": true,
+      "detail": {
+        "status": "SOFTWARE_NOT_FOUND",
+        "requiresOnline": true
+      }
+    },
+    {
+      "name": "Network lookup needs contextual approval before any online search",
+      "pass": true
+    },
+    {
+      "name": "New provider data registration requests central approval",
+      "pass": true
+    },
+    {
+      "name": "Pending source enrollment does not create trusted sources",
+      "pass": true
+    },
+    {
+      "name": "Explicit approval enrolls a validated new provider without core edits",
+      "pass": true
+    },
+    {
+      "name": "The same generic resolver discovers the signed runtime identity from the approved alternate source",
+      "pass": true
+    },
+    {
+      "name": "Actual resolver creates a typed owned plan without executing it",
+      "pass": true
+    },
+    {
+      "name": "Installation needs a separate exact-product approval with publisher, version, source and hash",
+      "pass": true
+    },
+    {
+      "name": "Actual installation approval can be declined without executing the signed file",
+      "pass": true
+    },
+    {
+      "name": "Independent native inventory produces a truthful present-or-unverified result",
+      "pass": true,
+      "detail": {
+        "status": "INSTALL_NOT_VERIFIED",
+        "verification": {
+          "status": "unverified",
+          "criterion": "installed_identity",
+          "observedAt": "2026-10-09T13:23:35.027Z"
+        }
+      }
+    },
+    {
+      "name": "Registered provider is visible without modifying application-specific code",
+      "pass": true
+    },
+    {
+      "name": "Actual long-name chat request reaches the signed software workflow and network approval",
+      "pass": true
+    },
+    {
+      "name": "Chat refusal stops the request without searching or installing",
+      "pass": true
+    },
+    {
+      "name": "DPAPI-protected provider enrollment persists across actual app restart",
+      "pass": true
+    },
+    {
+      "name": "Owned plan handle remains readable after restart and fresh login",
+      "pass": true
+    },
+    {
+      "name": "No uncaught renderer error",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "fixtureType": "Actual signed runtime program inspected/copied only; never executed as installer",
+  "downloads": 0,
+  "installerExecutions": 0,
+  "finishedAt": "2026-10-09T13:24:39.581Z"
+}

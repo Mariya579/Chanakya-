@@ -1,0 +1,64 @@
+▶ Windows system interfaces, dynamic Calculator, existing editor and VLC targets
+  ✔ Control Panel (687.978ms)
+  ✔ Settings (840.0984ms)
+  ﹣ Device Manager (1113.5965ms) # Windows denied launching Device Manager. The application policy allows opening it, but this OS session requires additional privileges.
+  ﹣ Services (1217.3867ms) # Windows denied launching Services. The application policy allows opening it, but this OS session requires additional privileges.
+  ✔ Task Manager (682.8682ms)
+  ✔ Calculator 1+1 (19111.1552ms)
+  ✔ Calculator 25+78 (5852.956ms)
+  ✔ Calculator 456*23 (5293.1398ms)
+  ✖ Calculator 100/4 (9424.9299ms)
+  ✖ Calculator 10.5+20.25 (22881.7746ms)
+  ✔ VLC chanakya-first.wav (1143.1708ms)
+  ✔ VLC chanakya-second.wav (1231.5968ms)
+✖ Windows system interfaces, dynamic Calculator, existing editor and VLC targets (70306.7511ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 8
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 2
+ℹ todo 0
+ℹ duration_ms 70526.3914
+
+✖ failing tests:
+
+test at frontend\tools\tests\desktopGoalsWindows.integration.test.js:18:13
+✖ Calculator 100/4 (9424.9299ms)
+  AssertionError [ERR_ASSERTION]: {"success":false,"error":{"code":"UI_EXECUTION_FAILED","message":"UI_WINDOW_NOT_FOUND"}}
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///E:/chatbot/frontend/tools/tests/desktopGoalsWindows.integration.test.js:19:72)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///E:/chatbot/frontend/tools/tests/desktopGoalsWindows.integration.test.js:18:5)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at frontend\tools\tests\desktopGoalsWindows.integration.test.js:18:13
+✖ Calculator 10.5+20.25 (22881.7746ms)
+  AssertionError [ERR_ASSERTION]: Reuse the open Calculator
+  
+  21800 !== 18404
+  
+      at TestContext.<anonymous> (file:///E:/chatbot/frontend/tools/tests/desktopGoalsWindows.integration.test.js:21:24)
+      at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async TestContext.<anonymous> (file:///E:/chatbot/frontend/tools/tests/desktopGoalsWindows.integration.test.js:18:5)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 21800,
+    expected: 18404,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

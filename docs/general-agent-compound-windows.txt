@@ -1,0 +1,17 @@
+▶ real compound goals pass through planner, state, permission, Windows and goal verifier
+  ✔ Open VS Code (7661.4483ms)
+  ✔ Open VLC (718.1029ms)
+  ✔ Open vscoed and open my project (4023.3281ms)
+  ✔ Open VS Code and open C:\Users\Admin\AppData\Local\Temp\chanakya-compound-bok38H\SecondProject (5809.9683ms)
+  ✔ Open vlcc and play this movie (5277.5903ms)
+  ✔ Play C:\Users\Admin\AppData\Local\Temp\chanakya-compound-bok38H\second-silent.wav using VLC (4185.0944ms)
+✔ real compound goals pass through planner, state, permission, Windows and goal verifier (27702.0551ms)
+ℹ Test targets retained for the open applications: C:\Users\Admin\AppData\Local\Temp\chanakya-compound-bok38H
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28043.9988

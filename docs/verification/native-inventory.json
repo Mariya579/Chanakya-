@@ -1,0 +1,103 @@
+{
+  "discovered": 459,
+  "native": 254,
+  "errors": ["path_entry", "install_root_entry", "install_scan_budget"],
+  "degraded": false,
+  "elapsedMs": 19913,
+  "sources": [
+    "windows_system",
+    "start_menu",
+    "app_paths",
+    "windows_management",
+    "control_panel",
+    "msix",
+    "shell_apps",
+    "running",
+    "path",
+    "install_roots"
+  ],
+  "results": [
+    {
+      "query": "Antigravity",
+      "exact": "APP_RESOLVED",
+      "exactName": "Antigravity",
+      "typo": "Antigarvity",
+      "typoStatus": "APP_RESOLVED",
+      "typoName": "Antigravity",
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "Generic Product 2082513e94a971a7b24519a5",
+      "exact": "APP_RESOLVED",
+      "exactName": "Generic Product 2082513e94a971a7b24519a5",
+      "typo": "Generic Product 2082153e94a971a7b24519a5",
+      "typoStatus": "APP_RESOLVED",
+      "typoName": "Generic Product 2082513e94a971a7b24519a5",
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "NVIDIA GeForce NOW",
+      "exact": "APP_RESOLVED",
+      "exactName": "NVIDIA GeForce NOW",
+      "typo": "NVIDIA GeoFrce NOW",
+      "typoStatus": "APP_RESOLVED",
+      "typoName": "NVIDIA GeForce NOW",
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "PC Health Check",
+      "exact": "APP_RESOLVED",
+      "exactName": "PC Health Check",
+      "typo": "PC Healht Check",
+      "typoStatus": "APP_RESOLVED",
+      "typoName": "PC Health Check",
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "Visual Studio Code",
+      "exact": "APP_RESOLVED",
+      "exactName": "Visual Studio Code",
+      "typo": "Visual Stduio Code",
+      "typoStatus": "APP_RESOLVED",
+      "typoName": "Visual Studio Code",
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "LiveCaptions",
+      "exact": "APP_RESOLVED",
+      "exactName": "LiveCaptions",
+      "typo": "LiveCatpions",
+      "typoStatus": "APP_RESOLVED",
+      "typoName": "LiveCaptions",
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "Magnify",
+      "exact": "APP_RESOLVED",
+      "exactName": "Magnify",
+      "typo": "Maginfy",
+      "typoStatus": "AMBIGUOUS_APP",
+      "typoName": null,
+      "confidence": 0.965,
+      "pass": true
+    },
+    {
+      "query": "Narrator",
+      "exact": "APP_RESOLVED",
+      "exactName": "Narrator",
+      "typo": "Narrtaor",
+      "typoStatus": "AMBIGUOUS_APP",
+      "typoName": null,
+      "confidence": 0.965,
+      "pass": true
+    }
+  ],
+  "launched": 0,
+  "installed": 0
+}

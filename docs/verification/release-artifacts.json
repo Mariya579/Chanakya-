@@ -1,0 +1,17 @@
+{
+  "buildCommand": "npm run electron:release -w frontend -- --output-dir=release-desktop-20261008-final",
+  "releaseOutput": "E:\\chatbot\\frontend\\release-desktop-20261008-final",
+  "installer": {
+    "path": "E:\\chatbot\\frontend\\release-desktop-20261008-final\\Chanakya AI Setup 1.0.0.exe",
+    "bytes": 296694753,
+    "sha256": "0f2a069931878778cf9c4629214854098f3fd7b45ba39c60ae00208d93c19981"
+  },
+  "packagedExe": {
+    "path": "E:\\chatbot\\frontend\\release-desktop-20261008-final\\win-unpacked\\Chanakya AI.exe",
+    "bytes": 204521984,
+    "sha256": "efe492382b9ffb57f18ebb5ebc52db10b1994674ac6efa2ae24dce0c42caf351"
+  },
+  "actualBinaryExecuted": true,
+  "installerInstalled": false,
+  "cleanMachineTested": false
+}

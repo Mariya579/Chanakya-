@@ -1,0 +1,74 @@
+{
+  "mode": "development",
+  "packaged": false,
+  "executablePath": "E:\\chatbot\\node_modules\\electron\\dist\\electron.exe",
+  "results": [
+    {
+      "name": "Vite development page loads",
+      "pass": true
+    },
+    {
+      "name": "Real isolated account registration",
+      "pass": true
+    },
+    {
+      "name": "Actual renderer login and composer",
+      "pass": true
+    },
+    {
+      "name": "Profile edits persist in authenticated API",
+      "pass": true
+    },
+    {
+      "name": "Two capability-filtered model selectors visible",
+      "pass": true
+    },
+    {
+      "name": "Attachment card appears before send",
+      "pass": true
+    },
+    {
+      "name": "Chat attachment never silently enters Knowledge",
+      "pass": true
+    },
+    {
+      "name": "Real local document answer uses attachment content",
+      "pass": true
+    },
+    {
+      "name": "Document answer retains supporting filename references",
+      "pass": true
+    },
+    {
+      "name": "Exact message attachment metadata persisted",
+      "pass": true
+    },
+    {
+      "name": "Ordinary attachment chat emits no OS tool message",
+      "pass": true
+    },
+    {
+      "name": "Recursive workspace enumeration includes nested and empty directories",
+      "pass": true
+    },
+    {
+      "name": "Workspace indexing uses actual nested document",
+      "pass": true
+    },
+    {
+      "name": "PDF and DOCX multipart extraction in this running runtime",
+      "pass": true
+    },
+    {
+      "name": "No viewport horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "No uncaught renderer error",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-08T13:28:13.259Z"
+}

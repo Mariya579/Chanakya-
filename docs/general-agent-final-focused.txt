@@ -1,0 +1,43 @@
+✔ acceptance typo corpus resolves only strong unique matches (35.252ms)
+✔ browser and compound goals retain specialized execution before generic UI (4.8054ms)
+✔ browser rejects executable URLs, credentials and side-effect destinations (2.5432ms)
+✔ registry validates risk, transport, duplicate names and immutable definitions (2.9912ms)
+✔ every concrete service action has an explicit definition (7.6501ms)
+✔ unknown tools, absent authentication, unavailable capabilities and internal failures deny (5.0597ms)
+✔ hardware.systemInfo READ allowed (3.2013ms)
+✔ process.list READ allowed (2.8084ms)
+✔ services.getStatus READ allowed (3.0375ms)
+✔ sensitive files, traversal, aliases, namespaces and out-of-root reads deny (19.7946ms)
+✔ SAFE_WRITE creates a bounded folder and app-owned text file without approval (72.0301ms)
+✔ SAFE_WRITE denies system targets, traversal, executable files and unapproved roots (6.2143ms)
+✔ junction escape and hard-linked reads deny; directory enumeration skips secrets (32.8248ms)
+✔ dangerous proposal pauses and a dedicated matching approval executes once (5.3423ms)
+✔ approval binds user, task, tool, action, parameters and target (3.6543ms)
+✔ concurrent approval reuse with different execution identities dispatches once (5.0735ms)
+✔ separate approval-store instances cannot consume a stale token twice (16.1655ms)
+✔ failure after approval consumption never reuses it (3.9379ms)
+✔ execution guard reevaluates capability and target changes after proposal (3.6263ms)
+✔ critical operations and security-sensitive service/registry targets always deny (13.7513ms)
+✔ spoofed risk cannot change authority (5.1083ms)
+✔ spoofed requiresApproval cannot change authority (3.2485ms)
+✔ spoofed approved cannot change authority (2.6197ms)
+✔ spoofed userId cannot change authority (2.3197ms)
+✔ spoofed transport cannot change authority (2.2394ms)
+✔ spoofed permission cannot change authority (2.2592ms)
+✔ spoofed confirmationId cannot change authority (2.2292ms)
+✔ shell injection, nested values, oversized values, null and malformed IDs deny (3.6658ms)
+✔ memory text and historical approvals have zero authorization effect (6.9393ms)
+✔ MCP exposes reads and independently blocks accidental SAFE_WRITE, DANGEROUS and CRITICAL registrations (3.3266ms)
+✔ authenticated MCP read works through ledger and unauthenticated HTTP is denied (82.036ms)
+✔ security audit stores hashes and decisions without parameters, secrets or approval tokens (4.0086ms)
+✔ unbounded content setters cannot persist secret-bearing approval payloads (4.2717ms)
+✔ audit persistence failure prevents execution (4.3497ms)
+✔ AgentState pauses for policy approval, resumes through validated guard, then verifies (10.0372ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 702.7514

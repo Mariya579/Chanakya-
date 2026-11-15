@@ -1,0 +1,5 @@
+{"tool":"app","action":"openApp","query":"conteol panel","success":true,"status":"APP_OPENED"}
+{"tool":"inspector","action":"inspect","query":"Control Panel","success":true,"status":"APP_INSPECTED","controls":52}
+{"tool":"app","action":"openApp","query":"Bluetooth Settings","success":true,"status":"APP_OPENED","page":{"status":"verified","criterion":"bluetooth_visible","observedAt":"2026-09-25T13:18:05.932Z"}}
+{"tool":"inspector","action":"inspect","query":"Settings","success":true,"status":"APP_INSPECTED","controls":70}
+{"tool":"uiAutomation","action":"calculate","success":true,"status":"UI_ACTION_COMPLETED","display":"9"}

@@ -1,0 +1,10 @@
+✔ native readonly MSI metadata comes from Windows Installer database, not PE VersionInfo (3002.9351ms)
+✔ native readonly MSIX manifest exposes exact identity, architecture, dependencies and restricted capabilities (2891.1416ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6332.413
